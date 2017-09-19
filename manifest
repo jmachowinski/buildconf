@@ -16,6 +16,7 @@ package_sets:
 # imported by other rock sets.
 layout:
    - rock.core
+   - rock.drivers
    # Uncomment to enable the Rock/ROS bridge
    # You will also have to uncomment some lines in the package_sets above
    # - rock.ros
@@ -53,7 +54,31 @@ layout:
 # all packages but a few ones. As with layout, the names are actually regular
 # expressions.
 #
-# exclude_packages:
+exclude_packages:
+   - drivers/orogen/imu_an_spatial
+   - drivers/phidgets
+   - drivers/qualisys
+   - drivers/ptu_directedperception
+   - drivers/phins_ixsea
+   - drivers/orogen/ucm_schilling
+   - drivers/orogen/camera_v4l
+   - drivers/orogen/tofcamera_mesasr
+   - drivers/orogen/wifimon
+   - drivers/alt_imagenex
+   - drivers/ctd_seabird
+   - drivers/pressure_paroscientific
+   - drivers/laserscanner_sick
+   - drivers/orogen/fog_kvh
+   - drivers/orogen/dynamixel
+   - drivers/act_schilling
+   - drivers/orogen/aria
+   - drivers/orogen/kinect
+   - drivers/orogen/camera_usb
+   - drivers/orogen/mbeam_imagenex
+   - drivers/orogen/imu_myahrs_plus
+   - drivers/ucm_schilling
+   - drivers/actuator_dispatcher
+#   - orocos/
 #   - orocos/
 
 # Ignoring packages: same principle than package exclusion, but this time the
