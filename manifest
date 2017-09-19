@@ -76,8 +76,10 @@ exclude_packages:
    - drivers/orogen/camera_usb
    - drivers/orogen/mbeam_imagenex
    - drivers/orogen/imu_myahrs_plus
+   - drivers/libusb
    - drivers/ucm_schilling
    - drivers/actuator_dispatcher
+   - drivers/freenect2
 #   - orocos/
 #   - orocos/
 
